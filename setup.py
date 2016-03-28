@@ -1,10 +1,10 @@
 from setuptools import setup
 
-with open('README.rst') as file:
+with open('README.md') as file:
     long_description = file.read()
 
 setup(
-    name="events",
+    name="python-events",
     version="1.0.0",
     description="Simple event emitter library",
     url="https://github.com/amovah/python-events",
@@ -17,7 +17,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.5'
     ],
-    keywords="event emitter",
+    keywords=['event', 'emitter'],
     packages=['events'],
     long_description=long_description
 )
