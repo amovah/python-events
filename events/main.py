@@ -24,7 +24,7 @@ class Events:
     def once(self, event, listener):
         if not event in self.__events:
             self.__events[event] = []
-        self.__evnets[event].append(listener)
+        self.__events[event].append(listener)
 
     def off(self, event):
         if event in self.__events:
